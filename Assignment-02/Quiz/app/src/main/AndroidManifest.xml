@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz">
         <activity
+            android:name=".resultpage"
+            android:exported="false"
+            android:label="Result page"/>
+        <activity
+            android:name=".thirdpage"
+            android:exported="false"
+            android:label="Third Page"/>
+        <activity
             android:name=".secondpage"
             android:exported="false"
             android:label="Second Page" />

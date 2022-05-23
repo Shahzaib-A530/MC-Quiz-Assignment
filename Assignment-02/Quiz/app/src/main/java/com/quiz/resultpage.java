@@ -7,20 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class secondpage extends AppCompatActivity {
+public class resultpage extends AppCompatActivity {
     Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_secondpage);
-        btn = findViewById(R.id.btn4);
+        setContentView(R.layout.activity_resultpage);
+        btn = findViewById(R.id.btn5);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b = new Intent(secondpage.this,thirdpage.class);
-                startActivity(b);
+                Intent a = new Intent(resultpage.this,MainActivity.class);
+                startActivity(a);
             }
         });
-
     }
 }
